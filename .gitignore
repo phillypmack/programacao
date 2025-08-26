@@ -1,0 +1,42 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Arquivos de ambiente
+.env
+.env.*
+!/.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de build e distribuição
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Arquivos de cache específicos da aplicação
+*.pkl
+*.pickle
+cadastro_moldes_cache.pkl
+
+# Bancos de dados locais
+*.sqlite3
+*.db
+
+# Dependências de frontend
+node_modules/
+
+# IDE e arquivos de sistema
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+sankhya_automation.log
